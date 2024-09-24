@@ -1,4 +1,4 @@
-import { ReponseData } from '@/config/definition';
+import { ReponseData } from '@/lib/definition';
 import { getClient } from './http_client';
 
 const getCatData = async (): Promise<ReponseData> => {

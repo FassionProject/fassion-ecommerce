@@ -1,4 +1,4 @@
-import { ReponseData } from '@/config/definition';
+import { ReponseData } from '@/lib/definition';
 import { AxiosResponse } from 'axios';
 
 const safeRequest = async (response: Promise<AxiosResponse>): Promise<ReponseData> => {

@@ -1,6 +1,6 @@
 import axios, { AxiosInstance } from 'axios';
-import { HTTP_BASE_CONFIG } from '@/config/constants';
-import { ReponseData } from '@/config/definition';
+import { HTTP_BASE_CONFIG } from '@/lib/constants';
+import { ReponseData } from '@/lib/definition';
 import { safeRequest } from '@/utils';
 
 const httpClient = (config: object): AxiosInstance => {
